@@ -3,6 +3,10 @@
   - In this project, It will allow users to search for movies included in the (http://www.omdbapi.com/) and view additional information about any movies they select.
   - as well as the ability for future improvments and adding new features   
   - Adding the abitlity toggle between screens using navigation stucture (StackNavigator)
+  - using  Redux to handle state managment  with many features such as 
+     - pagination 
+     - refresh (get back to the top with first page data)
+     - handling negative (null) get requests 
   
   
   # Project Structure 
@@ -17,7 +21,7 @@
           - handles the api requests as well as handling the authentication process 
             
    
-   - components folder()
+   - components folder
      
        - SearchBar.js
        - MovieContainer.js
@@ -48,11 +52,13 @@
 
 # Setup
    ```shell script
-git clone https://github.com/oi19/react-native/tree/movieBrowser
-cd blog
+- git clone https://github.com/oi19/movieBrowser/edit/redux
+- cd movieBrowser
+- run project on android studio or via physical devic
 ```
-Run these following commands to run the app in inside the tracker folder.
+Run these following commands to run the app in inside movieBrowser folder.
 
 ```shell script
-npm start
+- npx react-native start (android studio version)
+- npm start (physical device expo)
 ```
