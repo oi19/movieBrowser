@@ -8,7 +8,6 @@
      - refresh (get back to the top with first page data)
      - handling negative (null) get requests 
 
-#  2 branches:
-
+# Branches:
   - context-version (context version for state management)
   - redux (redux version for state management)
