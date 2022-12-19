@@ -51,7 +51,7 @@
 
 # Setup
    ```shell script
-- git clone https://github.com/oi19/movieBrowser/edit/redux
+- git clone https://github.com/oi19/movieBrowser/tree/redux
 - cd movieBrowser
 - run project on android studio or via physical devic
 ```
