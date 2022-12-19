@@ -55,11 +55,13 @@
 
 # Setup
    ```shell script
-git clone https://github.com/oi19/react-native/tree/movieBrowser
-cd blog
+- git clone https://github.com/oi19/movieBrowser/edit/redux
+- cd movieBrowser
+- run project on android studio or via physical devic
 ```
-Run these following commands to run the app in inside the tracker folder.
+Run these following commands to run the app in inside movieBrowser folder.
 
 ```shell script
-npm start
+- npx react-native start (android studio version)
+- npm start (physical device expo)
 ```
