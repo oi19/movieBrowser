@@ -63,5 +63,6 @@ Run these following commands to run the app in inside movieBrowser folder.
 
 ```shell script
 - npx react-native start (android studio version)
+// physical device expo
 - npm start (physical device expo)
 ```
