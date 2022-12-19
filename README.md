@@ -19,11 +19,7 @@
    
    - components folder
      
-       - SearchBar.js
-       - MovieContainer.js
-       - DataText.js
-       - Ratings.js
-      
+       - componensts.js (movieDetail component)
    
    - redux folder 
        - actions folder (responsible for state actions )
