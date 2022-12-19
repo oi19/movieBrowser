@@ -3,6 +3,10 @@
   - In this project, It will allow users to search for movies included in the (http://www.omdbapi.com/) and view additional information about any movies they select.
   - as well as the ability for future improvments and adding new features   
   - Adding the abitlity toggle between screens using navigation stucture (StackNavigator)
+  - using  Redux to handle state managment  with many features such as 
+     - pagination 
+     - refresh (get back to the top with first page data)
+     - handling negative (null) get requests 
   
   
   # Project Structure 
@@ -25,17 +29,20 @@
        - Ratings.js
       
    
-   - context folder 
-       - createDataContext.js (responsible for creating Context & blue print for using Context)
-       - BlogContext.js(handles the blogs data => posting and fetching requests
-   
-   - hooks
-      - costumeHook1.js
-      
+   - redux folder 
+       - actions folder (responsible for state actions )
+          - MovieScreenAction.js (includes the post & get requests using axios method as well as handling the authentication process both auto & manually)
+          - SearchScreenAction.js
+       - reducer folder (responsible for state data and changes)
+          - MovieScreenReducer.js (MovieScreen State)
+          - SearchScreenReducer.js (SearchScreen State)
+          
+   - navigation folder 
+       - navigation.js (responsible for navigation between different screens     
     
    - screens 
       - SearchScreen.js
-      - DetailScreen.js
+      - MovieScreen.js
   
  ## Tools   
   - languages
