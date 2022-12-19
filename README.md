@@ -9,5 +9,5 @@
      - handling negative (null) get requests 
 
 # Branches:
-  - context-version (context version for state management)
-  - redux (redux version for state management)
+  - context-version (context version for state management) (https://github.com/oi19/movieBrowser/tree/context-version)
+  - redux (redux version for state management) (https://github.com/oi19/movieBrowser/tree/redux)
