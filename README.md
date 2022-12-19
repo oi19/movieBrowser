@@ -15,13 +15,9 @@
    - This file creates the app structure by creating app Container and the Navigation structure as well as the state managment whether context(Providers) or redux 
   
   
-  ## src folder 
-   - api folder
-       - omdb.js 
-          - handles the api requests as well as handling the authentication process 
-            
+  ## src folder            
    
-   - components folder()
+   - components folder
      
        - SearchBar.js
        - MovieContainer.js
